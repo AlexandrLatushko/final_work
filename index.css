@@ -554,17 +554,17 @@ color: #000000;
    }
 
    .znac::before {
-     content:url(/img/znak.png);
+     content:url(img/znak.png);
      margin-right: 10px;
    }
 
    .parentheses::before {
-     content:url(/img/parentheses.png);
+     content:url(img/parentheses.png);
      margin-right:10px;
    }
 
    .cup::before {
-     content:url(/img/cup.png);
+     content:url(img/cup.png);
      margin-right: 10px;
    }
 
