@@ -74,22 +74,20 @@
   line-height: 20px;
   text-align: center;
   color: #747474;
- }
+}
 
 .header_container {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   margin-top: 115px;
   margin-right: 15px;
-
- }
+}
 
 .herder_img1 {
   position: relative;
   height: 90vh;  
   width: 50vw;
- }
+}
 
 .header_img2 {
   position: absolute;
@@ -222,7 +220,6 @@
 }
 
 .paragraph {
-
   margin-top: 30px;
   margin-bottom: 10px;
   max-width: 380px;
@@ -309,15 +306,10 @@
   border-bottom:1px solid black;
 }
 
-
-
-
 .selectedwork {
   text-align: center;
   margin-top: 150px;
 }
-
-
 
 .wrapper_selected {
   display: flex;
@@ -355,7 +347,7 @@
 
 
 .Improve_your_brand {
-  width: 428px;
+  max-width: 428px;
   height :159px;
   margin-left: 190px ;
   margin-top: 100px ;
@@ -398,8 +390,8 @@
 .Improve_flex {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   align-content:center;
+  gap: 10px;
 }
 
 .What {
@@ -539,6 +531,7 @@
   line-height: 23px;
   color: rgba(255, 255, 255, 0.7);
 }
+
 
 .fun {
   text-align: center;
@@ -722,6 +715,7 @@
   border-radius:30px;
   border:1px solid black;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .btn_map:hover {
@@ -775,3 +769,187 @@
   line-height: 22px;
   color: #747474;
 }
+
+@media screen and (max-width:950px) {
+  .img_roby {
+    display: none;
+  }
+
+  .What {
+    text-align: center;
+    margin-top: 322px;
+    margin-left: 50px;
+    font-size: 30px;
+  }
+
+  .skills_img {
+    display: none;
+  }
+
+  .our {
+    width: 100vw;
+    height: 600px;
+    background-color:black;
+    flex-shrink: 2;
+  }
+}
+
+@media screen and (max-width:770px) {
+
+  .agency {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .left_header {
+    margin-left: 10px;
+  }
+
+  .link_navigation {
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .navigation {
+    margin-left: 10px;
+  }
+
+  .header_container {
+    display:block;
+    margin-top: 20px;
+  
+  }
+  
+  .herder_img1 { 
+    height: 90vh;  
+    width: 100vw;
+  }
+  
+  .header_img2 {
+    display: none;
+   }
+  
+  .We_believe_that {
+    margin-top:50px ;
+    margin-left: 60px;
+    margin-right: 50px;
+  }
+  
+  .title_big,
+  .title     {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  
+  .title_small {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  
+  .title::before {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  
+  .title::after {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .btn_work {
+    width: 100px;
+    height: 100px;
+  }
+
+  .title_partner {
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  .title_forward {
+    font-size: 18px;
+    line-height: 15px;
+  }
+  
+  .homey {
+    display: none;
+  }
+
+  .the_perfect {
+    justify-content:center;
+    align-content:center;
+    margin-left: 80px;
+  }
+  
+  .block_perfect {
+    margin-top:75px ;
+  }
+  
+  .paragraph {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+      
+  .list_wrapper {
+    margin-top: 30px;
+    margin-right: 70px;
+  }
+
+  .text_tmg {
+    font-size: 17px;
+    line-height: 25px;
+    }
+
+  .img_roby {
+    display: none;
+  }
+
+  .title_Improve {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  .letter-spacing {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+   }
+  
+  .paragraph_skills {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  
+  .paragraph-skills {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .What {
+    text-align:center;
+    margin-left: 50px;
+    font-size: 30px;
+  }
+
+  .Improve_your_brand {
+    height: 159px;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+
+  .title_lets {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: white;
+    
+  }
+} 
